@@ -27,8 +27,8 @@ Modify the dataset path in the base_option.py file.Load the pre trained model pa
 - DDformer: [百度网盘](https://pan.baidu.com/s/14w_sQNx5qIGD4Rbh2Bc-nw) 提取码：hfuu
 
 - ## Citation
-```
 If you find this project useful in your research, please consider citing:
+```
 @article{GAO2024111977,
 title = {DDformer: Dimension decomposition transformer with semi-supervised learning for underwater image enhancement},
 journal = {Knowledge-Based Systems},
