@@ -5,9 +5,10 @@ This is the official implementation for our paper [DDformer: Dimension Decomposi
 ![architecture](architecture.png)
 
 Vision-guided Autonomous Underwater Vehicles (AUVs) have gradually become significant tools for human exploration of the ocean. However, distorted images severely limit the visual ability, making it difficult to meet the needs of complex underwater environment perception. Fortunately, recent advancements in deep learning have led to rapid developments in underwater image enhancement. The emergence of the Transformer architecture has further enhanced the capabilities of deep learning. However, the direct application of Transformer to underwater image enhancement presents challenges in computing pixel-level global information and extracting local features. In this paper, we present a novel approach that merges dimension decomposition Transformer with semi-supervised learning for underwater image enhancement. To begin, dimension decomposition attention is proposed, which enables Transformer to compute global dependencies directly at the original scale and correct color distortions effectively. Concurrently, we employ convolutional neural networks to compensate for Transformer's limitations in extracting local features, thereby enriching details and textures. Subsequently, a multi-stage Transformer strategy is introduced to divide the network into high- and low-resolution stages for multi-scale global information extraction. It helps correct color distortions while enhancing the network's focus on regions with severe degradation. Moreover, we design a semi-supervised learning framework to reduce the reliance on paired datasets and construct a corresponding multi-scale fusion discriminator to enhance the sensitivity to input data. Experimental results demonstrate that our method outperforms state-of-the-art approaches, showcasing excellent learning and generalization capabilities on subjective perception and overall evaluation metrics. Furthermore, outstanding results highlight the significant improvements it brings to downstream visual engineering applications.
-
-
 ```
+```
+
+
 
 ## Package dependencies
 
