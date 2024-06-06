@@ -10,6 +10,7 @@ Vision-guided Autonomous Underwater Vehicles (AUVs) have gradually become signif
 ```
 
 ## Package dependencies
+
 The project is built with PyTorch 1.13.0, Python3.8, CUDA11.6. For package dependencies, you can install them by:
 
 ```bash
