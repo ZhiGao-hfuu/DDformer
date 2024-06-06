@@ -12,9 +12,6 @@ The project is built with PyTorch 1.13.0, Python3.8, CUDA11.6. For package depen
 ```bash
 pip install -r requirements.txt
 
-```
-```
-
 ##Train
 Modify the dataset path in the base_option.py file.
 ```
@@ -27,6 +24,7 @@ Modify the dataset path in the base_option.py file.Load the pre trained model pa
 - DDformer: [百度网盘](https://pan.baidu.com/s/14w_sQNx5qIGD4Rbh2Bc-nw) 提取码：hfuu
 
 - ## Citation
+- ```
 If you find this project useful in your research, please consider citing:
 @article{GAO2024111977,
 title = {DDformer: Dimension decomposition transformer with semi-supervised learning for underwater image enhancement},
