@@ -8,3 +8,29 @@ Vision-guided Autonomous Underwater Vehicles (AUVs) have gradually become signif
 
 
 ```
+
+## Package dependencies
+The project is built with PyTorch 1.13.0, Python3.8, CUDA11.6. For package dependencies, you can install them by:
+```bash
+pip install -r requirements.txt
+```
+##Train
+Modify the dataset path in the base_option.py file.
+##Test
+Modify the dataset path in the base_option.py file.Load the pre trained model parameters and place them in the save_model folder.
+##Pretrained model
+- DDformer: [百度网盘](https://pan.baidu.com/s/14w_sQNx5qIGD4Rbh2Bc-nw) 提取码：hfuu
+
+- ## Citation
+If you find this project useful in your research, please consider citing:
+@article{GAO2024111977,
+title = {DDformer: Dimension decomposition transformer with semi-supervised learning for underwater image enhancement},
+journal = {Knowledge-Based Systems},
+volume = {297},
+pages = {111977},
+year = {2024},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2024.111977},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705124006117},
+author = {Zhi Gao and Jing Yang and Fengling Jiang and Xixiang Jiao and Kia Dashtipour and Mandar Gogate and Amir Hussain},
+```
