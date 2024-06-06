@@ -11,14 +11,18 @@ Vision-guided Autonomous Underwater Vehicles (AUVs) have gradually become signif
 
 ## Package dependencies
 The project is built with PyTorch 1.13.0, Python3.8, CUDA11.6. For package dependencies, you can install them by:
+
 ```bash
 pip install -r requirements.txt
 ```
 ##Train
 Modify the dataset path in the base_option.py file.
+```
 ##Test
 Modify the dataset path in the base_option.py file.Load the pre trained model parameters and place them in the save_model folder.
+```
 ##Pretrained model
+
 - DDformer: [百度网盘](https://pan.baidu.com/s/14w_sQNx5qIGD4Rbh2Bc-nw) 提取码：hfuu
 
 - ## Citation
